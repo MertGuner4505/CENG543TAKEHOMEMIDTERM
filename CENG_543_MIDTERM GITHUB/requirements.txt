@@ -1,0 +1,29 @@
+# Core Scientific Stack (Fixed versions to prevent binary incompatibility)
+numpy<2
+scipy<1.13
+pandas<2.2
+matplotlib<3.8
+Pillow<10.0.0
+
+# PyTorch Stack (CUDA 12.1 compatible)
+torch==2.2.0+cu121 --extra-index-url https://download.pytorch.org/whl/cu121
+torchvision==0.17.0+cu121 --extra-index-url https://download.pytorch.org/whl/cu121
+torchaudio==2.2.0+cu121 --extra-index-url https://download.pytorch.org/whl/cu121
+torchtext==0.17.0
+
+# NLP & Deep Learning Libraries
+transformers==4.38.2
+datasets
+scikit-learn
+spacy
+portalocker
+accelerate
+
+# Task-Specific Libraries
+captum                 # For Q5 Interpretability
+rank_bm25              # For Q4 Retrieval
+sentence-transformers  # For Q4 Dense Retrieval
+torchmetrics           # For Evaluation
+bert_score             # For Evaluation
+evaluate               # For ROUGE score
+rouge_score
