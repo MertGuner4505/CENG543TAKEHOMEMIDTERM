@@ -2,6 +2,9 @@
 **Instructor:Prof. Aytuğ ONAN
 **Project Type:** Take-Home Midterm Exam
 
+
+## ⚠️ IMPORTANT NOTE
+**The README file, requirements.txt file, and source code structure were generated with the assistance of generative artificial intelligence.**
 ##  Project Overview
 
 This repository contains a comprehensive comparative analysis of sequence modeling architectures in Natural Language Processing. The project investigates the transition from recurrence-based methods to self-attention mechanisms and retrieval-augmented systems through five distinct experimental tasks.
@@ -26,8 +29,7 @@ The study covers:
 * **Efficiency Wins:** In low-resource settings (like the Multi30k dataset), simpler architectures (1-Layer Transformer) often outperformed deeper, pre-trained models due to data scarcity constraints.
 * **Attention Quality:** Scaled Dot-Product attention provided the sharpest alignment and highest translation quality, outperforming multiplicative variants.
 * **Retrieval Matters:** In the RAG system, switching from sparse (BM25) to dense (Sentence-BERT) retrieval significantly improved answer generation fidelity.
-## IMPORTANT NOTE
-* **README file requirements.txt file and source code was made by generative artificial intelligence
+
 ##  Installation & Setup
 
 To reproduce the results, use the following "Golden Setup" to avoid dependency conflicts between PyTorch, TorchText, and NumPy.
