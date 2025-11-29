@@ -1,5 +1,3 @@
-# Deep Learning Architectures for NLP: From RNNs to RAG
-
 **Course:** CENG 543 - Information Retrieval  
 **Instructor:Prof. Aytuğ ONAN
 **Project Type:** Take-Home Midterm Exam
